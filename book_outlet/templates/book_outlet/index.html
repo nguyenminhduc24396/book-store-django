@@ -10,4 +10,6 @@
             <li>{{ book.title }} (Rating: {{ book.rating }})</li>
         {% endfor %}
     </ul>
+    <p>Total Number: {{ total_number_of_books }}</p>
+    <p>Average Rating: {{ average_rating.rating__avg }}</p>
 {% endblock content %}
